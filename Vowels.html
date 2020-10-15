@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vowels</title>
+    </head>
+    <body>
+        <script>
+            var str=prompt("Enter a string","");
+            //alter(str);
+    
+            str=str.toUpperCase();
+            for(i=0;i<str.length;i++){
+                var ch=str.charAt(i);
+                if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+                break;
+
+            }
+        if(i<str.length)
+            alert("The position of the left most vowel is "+(i+1));
+            else
+            alert("no vowels found");
+            </script>
+        
+    </body>
+</html>
